@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <>
       <h1>Welcome to Next.js!</h1>
+
       <br />
+
       <ul>
         <li><Link href="/">Home</Link></li>
         <li><Link href="/product">Product</Link></li>
@@ -12,6 +14,10 @@ export default function Home() {
         <li><Link href="/about">About</Link></li>
         <li><Link href="/contact">Contact</Link></li>
       </ul>
+
+      <br />
+
+      <Link href="https://nextjs.org/" target="_blank">Next.js Documentation</Link>
     </>
   );
 }
