@@ -1,4 +1,5 @@
 import Link from "next/link";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
@@ -7,12 +8,12 @@ export default function Home() {
 
       <br />
 
-      <ul>
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="/product">Product</Link></li>
-        <li><Link href="/services">Services</Link></li>
-        <li><Link href="/about">About</Link></li>
-        <li><Link href="/contact">Contact</Link></li>
+      <ul className={styles.navLinks}>
+        <li><Link href="/" className={styles["nav-button"]}>Home</Link></li>
+        <li><Link href="/product" className={styles["nav-button"]}>Product</Link></li>
+        <li><Link href="/services" className={styles["nav-button"]}>Services</Link></li>
+        <li><Link href="/about" className={styles["nav-button"]}>About</Link></li>
+        <li><Link href="/contact" className={styles["nav-button"]}>Contact</Link></li>
       </ul>
 
       <br />

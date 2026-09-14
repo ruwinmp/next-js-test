@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import styles from './page.module.css'
 
 function page() {
   return (
@@ -9,8 +10,8 @@ function page() {
       <br />
 
       <ul>
-        <li><Link href="/product/meat">Meat</Link></li>
-        <li><Link href="/product/groceries">Groceries</Link></li>
+        <li className={styles.item}><Link href="/product/meat">Meat</Link></li>
+        <li className={styles.item}><Link href="/product/groceries">Groceries</Link></li>
       </ul>
     </>
   )
