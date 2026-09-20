@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import groceriesImg from '../../../public/img/groceries.jpg' 
+import Button from '../../(components)/Button';
 
 const grocerieItems = ['groc-pack-1', 'groc-pack-2', 'groc-pack-3'];
 
@@ -17,6 +18,10 @@ function page() {
   return (
     <>
       <div>Groceries</div>
+
+      <Button />
+      
+      <br />
       
       <Image src={groceriesImg} alt="Groceries" width={1000} height={100} className="groc-img" />
 
