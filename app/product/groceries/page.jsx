@@ -34,6 +34,14 @@ function page() {
       
       <br />
 
+      <Image src={"https://randomimageurl.com/assets/images/local/20260103_0520_Eclectic%20Dreamscape%20Fusion_simple_compose_01ke208djwfj0t0g3t43g8mmcq_compressed_q80.jpeg"} 
+        alt="Random Image" 
+        width={200} 
+        height={300} 
+      /> 
+      
+      <br />
+
       <ul>
         {grocerieItems.map((item) => (
           <li key={item}>
