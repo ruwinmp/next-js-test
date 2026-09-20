@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 
-function page() {
+function Page() {
   const [value, setValue] = useState('');
 
   const handleClick = (text) => {
@@ -40,4 +40,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
